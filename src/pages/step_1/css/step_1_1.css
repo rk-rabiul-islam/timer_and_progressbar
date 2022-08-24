@@ -1,0 +1,622 @@
+
+
+body{
+    margin: 0; 
+    padding: 0; 
+    background:#F0F4F8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.side-app{
+    padding: 25px 1.5rem 0 1.5rem;
+}
+
+
+.main-container{
+    width: 95%; 
+    margin: auto; 
+}
+
+
+
+/*------------ section-3-start-here ------------*/
+.statement{
+    width: 100%;
+    height: 768px;
+    padding: 20px 20px 20px 20px;
+    
+}
+
+
+.statement-area{
+    background: linear-gradient(151.05deg, #EBF2F7 13.27%, #F2F6F9 83.27%);
+    box-shadow: 0px 0px 18px rgba(235, 176, 30, 0.75);
+    border-radius: 3px;
+    padding: 10px 25px 20px 22px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.statement-title {
+	padding: 10px 0 12px 0;
+	overflow: hidden;
+}
+
+
+
+.statement-title h4{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #697094; 
+    float: left;
+    overflow: hidden;
+}
+
+.statement-title span{
+    float: right;
+    margin-right: 18%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #697094;
+}
+
+
+.statement-video {
+	position: absolute;
+	right: -7px;
+	top: -2px;
+	box-shadow: 13px -15px 0 7.5px #f0f4f8;
+}
+.statement-video span {
+	background: #f0f4f8;
+	box-shadow: inset 4px -4px 6px #f0bf256b;
+	float: right;
+	overflow: hidden;
+	padding: 0 0 8px 10px;
+	margin-top: -4px;
+}
+
+.statement-video span img:hover{
+    transform: scale(1.1);
+}
+
+.statement-video span img{
+    width: 100px;
+    height: auto;
+    transition: .3s;
+}
+
+
+
+
+/*-------  statement-form ---------- */
+
+.statement-form {
+	height: 93%;
+	overflow: hidden;
+}
+
+
+/* profile-area-start */
+
+.profile-area{
+
+}
+
+.profile-step{
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-step ul{
+    list-style: none;
+    padding: 0; 
+    margin: 0;
+}
+
+
+.profile-step ul li{
+    float: left;
+    width: 13%;
+    position: relative;
+    z-index: 1;
+}
+
+
+.profile-step ul li::after {
+	content: '';
+	height: 5px;
+	width: 100%;
+	background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+	box-shadow: inset -3px -3px 2px #FFFFFF, inset 2px 2px 3px rgba(77, 89, 107, 0.15);
+	border-radius: 5px;
+	position: absolute;
+	left: 5px;
+	top: 19px;
+	z-index: -1;
+}
+.profile-step ul li:last-child::after{
+    display: none;
+}
+
+
+.profile-step ul li span{
+    position: relative;
+    display: inline-block;
+    height: 42px; 
+    width: 42px; 
+    line-height: 42px;
+    border-radius: 50%;
+    background: #F0F4F8;
+    box-shadow: -3px -2px 12px rgba(242, 237, 219, 0.72), 4px 4px 10px rgba(166, 180, 200, 0.5);
+}
+
+.profile-step ul li span i{
+    font-size: 15px;
+    height: 33px; 
+    width: 33px; 
+    line-height: 33px;
+    border-radius: 50%;
+    background: #F0F4F8;
+    border: 1px solid #E2E6EF;
+    text-align: center;
+    position: absolute;
+    left: 50%; 
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    color: #A1A3AC;
+}
+
+
+
+.profile-step ul li:nth-child(1) span i{
+    background: #EE47BB;
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.2), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    color: #fff; 
+}
+
+
+
+.profile-info{
+
+}
+
+.profile-title{
+
+}
+.profile-title h5{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #697094;
+    margin: 30px 0;
+}
+
+
+.profile-input{
+
+}
+
+.profile-input label{
+    width: 100%;
+    display: block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #545C81;
+    margin-bottom: 10px;
+}
+
+.profile-input input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    color: #4F5369; 
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-bottom: 20px;
+}
+
+.profile-input input:focus{
+    outline: none;
+}
+
+
+/* profile-area-end */
+
+
+
+
+
+
+
+
+
+/* upload-logo-area */
+.upload-logo-area{
+    margin-bottom: 30px;
+}
+
+
+.upload-box{
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -6px -6px 10px rgba(255, 255, 255, 0.75), inset 3px 3px 10px rgba(166, 180, 200, 0.4);
+    border-radius: 5px;
+    padding: 20px; 
+}
+
+.upload-img-box{
+    border: 1px dashed #B7C6D7;
+    padding: 8px; 
+}
+
+
+.upload-box > label{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #2F75C8;
+    cursor: default;
+    margin-top: 16px;
+}
+
+
+
+.drop-zone {
+	max-width: 132px;
+	margin: auto;
+	height: 132px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	font-family: "Quicksand", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	cursor: pointer;
+	color: #545C81;
+	border-radius: 10px;
+}
+  
+.drop-zone span{
+    position: absolute;
+}
+
+  .drop-zone span img{
+    width: 30px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+
+  .drop-zone--over {
+    border-style: solid;
+  }
+  
+  .drop-zone__input {
+    display: none;
+  }
+  
+  .drop-zone__thumb {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #cccccc;
+    background-size: cover;
+    position: relative;
+  }
+  
+  .drop-zone__thumb::after {
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 0;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    text-align: center;
+  }
+  
+
+
+
+
+/* statement-save */
+.statement-save{
+    width: 20%;
+    margin: auto;
+    position: relative;
+}
+
+.statement-save input{
+    display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: -12px -12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4), inset -4.55556px -4.55556px 7.59259px rgba(255, 255, 255, 0.75), inset 3.03704px 3.03704px 7.59259px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    padding: 10px 10px; 
+    margin-top: 20px;
+    border: 1px solid#D9961959;
+    color: #E28D0E; 
+    cursor: default;
+}
+.statement-save span{
+    width: 100%;
+    border-radius: 5px;  
+    border-radius: 3px;
+    padding: 10px 10px; 
+    border: none;
+    background: linear-gradient(-180.17deg, #E59A13 4.98%, #EAB429 94.88%); 
+    box-shadow: -12px 12px 20px rgba(255, 255, 255, 0.8), 6px 6px 24px rgba(166, 180, 200, 0.4);
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff; 
+    font-weight: 400; 
+    transform: rotate(6.57deg);
+    position: absolute;
+    left: 0; 
+    top: -12px; 
+    cursor: pointer;
+ 
+}
+.statement-save span:hover{
+    background: linear-gradient(-180.17deg, #da8f04 4.98%, #e4ac1f 94.88%); 
+    
+}
+
+
+
+#bottom_gen_btn{
+    transition: 2s;
+    text-align: center
+}
+
+.bottom_gen_btn{
+    position: absolute !important;
+    top: 200px !important;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1700px){
+    .statement-title h4 {
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 1566px){
+    .statement-video span img {
+        width: 80px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1490px){
+    .statement-title h4 {
+        font-size: 13px;
+    }
+    .profile-step ul li span i {
+        font-size: 12px;
+        height: 27px;
+        width: 27px;
+        line-height: 27px;
+    }
+    .profile-step ul li span {
+        height: 36px;
+        width: 36px;
+    }
+    .profile-step ul li::after {
+        top: 16px;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 1375px){
+    .drop-zone span {
+        width: 34%;
+    }
+    .upload-box > label {
+        font-size: 14px;
+    }
+    .drop-zone {
+        font-size: 15px;
+    }
+
+    .upload-box {
+        padding: 15px;
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width: 1240px){
+
+    .statement-save span {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+    .statement-save input {
+        padding: 8px 10px;
+        font-size: 14px;
+    }
+
+    .profile-input label {
+        font-size: 12px;
+    }
+    .profile-input input {
+        font-size: 14px;
+    }
+
+    .upload-box {
+        padding: 11px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1000px){
+
+    .statement-title h4 {
+        font-size: 15px;
+    }
+
+}
+@media only screen and (max-width: 767px){
+
+    .statement {
+        height: 1130px;
+    }
+    .statement-form {
+        height: 96%;
+    }
+}
+
+
+@media only screen and (max-width: 685px){
+
+    .video-list-aria {
+        height: 450PX;
+    }
+    .video-list {
+        height: 450px;
+    }
+    .video-are {
+        height: 450px;
+    }
+}
+
+
+
+@media only screen and (max-width: 660px){
+
+    .statement-title h4 {
+        font-size: 14px;
+    }
+
+    
+    .statement-save span {
+        font-size: 13px;
+        padding: 7px 10px;
+    }
+    .statement-save input {
+        padding: 7px 10px;
+        font-size: 13px;
+    }
+
+    .statement-video span img {
+        width: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 550px){
+
+    .statement-title h4 {
+        width: 100%;
+        font-size: 12px;
+    }
+
+
+    .profile-step ul li span i {
+        font-size: 10px;
+        height: 22px;
+        width: 22px;
+        line-height: 20px;
+    }
+    .profile-step ul li span {
+        height: 30px;
+        width: 30px;
+    }
+    .profile-step ul li::after {
+        top: 14px;
+        height: 4px; 
+    }
+    .profile-title h5 {
+        font-size: 14px;
+        line-height: 6px;
+        margin: 24px 0;
+    }
+    .profile-input input {
+        font-size: 12px;
+    }
+    .drop-zone {
+        font-size: 14px;
+    }
+    
+    .statement {
+        height: 1100px;
+    }
+
+
+    .statement-save {
+        width: 30%;
+    }
+
+    .statement-title h4 {
+        width: 48%;
+    }
+    .statement-title span {
+        margin-right: 20%;
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .profile-step ul li {
+        width: 14%;
+    }
+    
+}
+
+
+@media only screen and (max-width: 460px){
+   
+
+    .statement-save span {
+        padding: 7px 3px;
+    }
+
+    .statement-title h4 {
+        width: 57%;
+    }
+    .statement-title span {
+        margin-right: 12%;
+        font-size: 11px;
+    }
+   
+}
+
+
+

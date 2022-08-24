@@ -1,0 +1,342 @@
+
+body{
+    margin: 0; 
+    padding: 0; 
+    background:#F0F4F8;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.side-app{
+    padding: 25px 1.5rem 0 1.5rem;
+}
+
+
+.main-container{
+    width: 95%; 
+    margin: auto; 
+}
+
+
+
+
+.page-titie {
+    padding: 15px 0;
+    overflow: hidden;
+}
+
+.page-titie h3{
+    float: left;
+    overflow: hidden;
+    color: #505d9d; 
+    font-size: 26px; 
+    font-weight: 700;
+}
+
+
+.page-titie .page-title-cercle {
+	margin-right: 30%;
+	float: left;
+	overflow: hidden;
+	margin-top: -15px;
+	margin-left: 17px;
+}
+
+
+.page-title-btn{
+    float: left;
+}
+.page-title-btn a{
+    font-size: 22px;
+    color: #4c7dfa; 
+    text-decoration: none;
+    padding: 2px 30px; 
+    display: inline-block;
+    background: linear-gradient(151.05deg, #EBF2F7 13.27%, #F2F6F9 83.27%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.8), 3px 3px 12px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.page-title-btn a:hover{
+    background: linear-gradient(151.05deg, #dbe6ed 13.27%, #F2F6F9 83.27%);
+    box-shadow: -6px -6px 20px rgba(255, 255, 255, 0.654), 3px 3px 12px rgba(166, 180, 200, 0.357);
+    
+}
+
+.page-save-btn{
+    float: right;
+    padding-right: 10px; 
+}
+
+.save-btn-area {
+    width: 110px;
+    height: 35px;
+    position: relative;
+}
+
+.save-btn-area span {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(134.17deg, #F0F4F8 4.98%, #F0F4F8 94.88%);
+    box-shadow: inset -4.55556px -4.55556px 7.59259px rgba(255, 255, 255, 0.75), inset 3.03704px 3.03704px 7.59259px rgba(166, 180, 200, 0.4);
+    border-radius: 3px;
+    border: 1px solid#d9961944;
+    display: inline-block;
+    text-align: center;
+    line-height: 35px;
+    cursor: default;
+    font-size: 16px;
+    color: #6174A7; 
+    font-weight: 500;
+}
+
+.save-btn-area a{
+    width: 92%; 
+    height: 100%;
+    font-size: 16px;
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 5px 20px; 
+    display: inline-block;  
+    background: linear-gradient(-180.17deg, #E59A13 4.98%, #EAB429 94.88%); 
+    border-radius: 3px;
+    font-weight: 500;
+    transform: rotate(7.93deg);
+    position: absolute;
+    left: 0; 
+    top: 7px; 
+}
+
+
+
+.page-save-btn a i{
+    margin-right: 5px;
+    color: #ffffff; 
+}
+
+.page-save-btn a:hover{
+    background: linear-gradient(-180.17deg, #da8f04 4.98%, #e4ac1f 94.88%); 
+    
+}
+
+
+/*----------- progress-start ----------- */
+
+
+/* top-progress-start */
+
+
+.circle_percent {
+    font-size: 60px;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background: #1aac414b;
+    border-radius: 50%;
+    overflow: hidden;
+    display: inline-block;
+  
+}
+.circle_inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 1em;
+    clip: rect(0 1em 1em 0.5em);
+}
+.round_per {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 1em;
+    background: #1AAC40;
+    clip: rect(0 1em 1em 0.5em);
+    transform: rotate(180deg);
+    transition: 1s;
+}
+.percent_more .circle_inner {
+    clip: rect(0 0.5em 1em 0em);
+}
+.percent_more:after {
+    position: absolute;
+    left: 0.5em;
+    top: 0em;
+    right: 0;
+    bottom: 0;
+    background: #1AAC40;
+    content: "";
+}
+.circle_inbox {
+	position: absolute;
+	top: 7px;
+	left: 7px;
+	right: 10px;
+	bottom: 10px;
+	background: #fff;
+	z-index: 3;
+	border-radius: 50%;
+	width: 46px;
+	height: 46px;
+}
+.percent_text {
+    position: absolute;
+    font-size: 18px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+}
+
+
+/* top-progress-end */
+
+
+
+.my-style .for-min {
+    font-size: 14px;
+    color: #b7bfd0;
+    padding-bottom: 8px;
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 4px;
+}
+
+
+
+.my-style svg.radial-progress circle{
+    stroke: #1AAC40;
+}
+
+
+.my-style svg.radial-progress .percentage{
+    fill: #3c4761;
+    font-size: 20px;
+}
+
+/*----------- progress-end ----------- */
+
+
+
+
+
+
+
+
+/*-------------------------- responsive-start-here --------------------------- */
+@media only screen and (max-width: 1390px){
+    .page-titie .page-title-cercle {
+        margin-right: 20%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1240px){
+    .page-title-btn a {
+        font-size: 18px;
+    }
+    .save-btn-area a {
+        font-size: 14px;
+    }
+    .save-btn-area {
+        width: 100px;
+        height: 31px;
+    }
+
+    .page-titie h3 {
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 1048px){
+    .page-titie .page-title-cercle {
+        margin-right: 10%;
+    }
+
+    .page-title-btn a {
+        padding: 2px 20px;
+        margin-right: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 876px){
+    .page-titie h3 {
+        font-size: 15px;
+    }
+
+    .page-titie .page-title-cercle {
+        margin-right: 12%;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 775px){
+    .page-titie h3 {
+        font-size: 14px;
+    }
+    .page-titie .page-title-cercle {
+        margin-right: 9%;
+    }
+    .page-title-btn a {
+        padding: 2px 14px;
+        font-size: 14px;
+    }
+    .save-btn-area {
+        width: 91px;
+        height: 28px;
+    }
+    .save-btn-area a {
+        font-size: 13px;
+        padding: 5px 17px;
+    }
+
+}
+
+@media only screen and (max-width: 685px){
+    .page-titie .page-title-cercle {
+        margin-right: 28%;
+        margin-bottom: 20px;
+    }
+    .circle_percent {
+        font-size: 36px;
+        width: 36px;
+        height: 36px;
+    }
+    .circle_inbox {
+        position: absolute;
+        top: 5px;
+        left: 5px;
+        width: 26px;
+        height: 26px;
+    }
+    .percent_text {
+        font-size: 11px;
+    }
+    .page-titie .page-title-cercle {
+        margin-top: -11px;
+        margin-left: 9px;
+    }
+}
+
+@media only screen and (max-width: 536px){
+    .page-titie .page-title-cercle {
+        margin-right: 5%;
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .page-titie h3 {
+        font-size: 13px;
+    }
+}
+
+
+/* rk */
